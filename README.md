@@ -23,5 +23,5 @@
 <br/>
 
 ## Project Summary
-- 도서 리뷰 데이터셋(https://amazon-reviews-2023.github.io)을 활용하여 추천시스템 **LightGCN, GLocal-K** 구현
+- 도서 리뷰 데이터셋(https://amazon-reviews-2023.github.io) 을 활용하여 추천시스템 **LightGCN, GLocal-K** 구현
 <br/>
