@@ -18,4 +18,4 @@
   - 도서 리뷰 데이터셋([https://amazon-reviews-2023.github.io](https://amazon-reviews-2023.github.io))을 활용한 추천시스템 구현
   - **LightGCN**, **GLocal-K** 알고리즘 기반
 
-
+---
