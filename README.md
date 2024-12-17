@@ -1,5 +1,4 @@
-# 23 Mini Project: ✧BookRecommendation
-도서 데이터 기반 추천시스템 (LightGCN, GLocal-K) 구현
+# 23_Mini_Project : ✧ Book-Recommendation ✧
 
 - **Usage:**
   - [ ] Session
@@ -13,7 +12,7 @@
 - **Team:**
   - **Team Manager:** [윤왕규](https://github.com/yoonwanggyu)
   - **Team Members:** [김경민](https://github.com/rudals6151), [백다운](https://github.com/nuebaek), [오영민](https://github.com/oymin2001)
-
+  
 ---
 
 # Backgrounds
@@ -29,15 +28,26 @@
 - Link : https://amazon-reviews-2023.github.io
   
 # Models
-- 
-## 1) GLocal-K
+- Taking into account that the actual rating matrix is sparse and side information is limited, we aimed to implement an accurate recommendation model tailored to each user’s preferences.
+- To achieve this, we formed teams of two, studied the relevant research papers, and implemented the two models described below.
+
+### 1) GLocal-K
+![image](https://github.com/user-attachments/assets/b4b51347-aba7-4617-8746-f57123b84c6c)
 - Paper : https://arxiv.org/abs/2108.12184
 - Reference : https://paperswithcode.com/paper/glocal-k-global-and-local-kernels-for
 
-## 2) LightGCN
+### 2) LightGCN
+![image](https://github.com/user-attachments/assets/177a2622-dc22-409d-bfd5-1dedd3f7b731)
 - Paper : https://arxiv.org/abs/2002.02126
 - Reference : https://paperswithcode.com/method/lightgcn
 
 # Metrics
-- NDCG, Recall, Precision, Map
-  
+- NDCG
+- Recall
+- Precision
+- Map
+
+# Conclusion
+- After performing EDA on the Amazon book dataset, we found that there were relatively few user reviews per individual item, despite the dataset containing a wide variety of different items.
+- Since this was our first experience implementing a research paper, we encountered many difficulties, and it’s regrettable that we weren’t able to modify the model itself to better suit our dataset.
+- We also regret not being able to implement an app or web interface to showcase the recommended results, which highlights a technical shortcoming in our approach.
